@@ -1,6 +1,6 @@
 # ElasticSearch Dockerfile
 
-This repository contains **Dockerfile** of [ElasticSearch](http://www.elasticsearch.org/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dockerfile/elasticsearch/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
+This repository contains **Dockerfile** of [ElasticSearch](http://www.elasticsearch.org/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/neglectedvalue/elasticsearch/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 ## Base Docker Image
 
@@ -17,7 +17,7 @@ This repository contains **Dockerfile** of [ElasticSearch](http://www.elasticsea
 ## Usage
 
   ```sh
-  docker run -d -p 9200:9200 -p 9300:9300 dockerfile/elasticsearch
+  docker run -d -p 9200:9200 -p 9300:9300 neglectedvalue/elasticsearch
   ```
 
 ### Attach persistent/shared directories
