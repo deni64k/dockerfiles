@@ -1,5 +1,5 @@
 # My lovely ElasticSearch with plugins
-FROM neglectedvalue/elasticsearch
+FROM neglectedvalue/elasticsearch:1.4.2
 MAINTAINER Denis Sukhonin <d.sukhonin@gmail.com>
 
 ADD elasticsearch.yml /elasticsearch/config/elasticsearch.yml
